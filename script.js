@@ -31,8 +31,7 @@ function playRound (playerSelection, computerSelection) {
         console.log(`You win! Rock beats sissors. Player score = ${playerScore}. Computer score = ${computerScore}.`)
     } else if (newPlayerSelection === computerSelection) {
         console.log(`Draw! Player score = ${playerScore}. Computer score = ${computerScore}.`)
-    } 
-    else {
+    } else {
         console.log('Not a valid input. Try entering rock, paper, or sissors')
     }
 }; 
@@ -51,3 +50,4 @@ function game() {
         console.log(`By golly, we have a draw! Final player score = ${playerScore}. Final computer score = ${computerScore}.`)
     }
 }
+
